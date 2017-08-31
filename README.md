@@ -21,6 +21,7 @@ Normally you can use a regular expression to parse a record. It is difficult to 
 
 ### Local/Build
 ```
+$ git clone https://github.com/unquietwiki/fluent-plugin-split_record.git && cd fluent-plugin-split_record
 $ td-agent-gem build fluent-plugin-split_record.gemspec
 $ td-agent-gem install fluent-plugin-split_record-0.12.1.gem
 ```
