@@ -59,7 +59,7 @@ You may want to pre-process with the [regexp parser](https://docs.fluentd.org/v0
 
 <filter FW.**>
   @type split_record
-  tag SonicWall
+  tag FW
   key_name extradata
   reserve_msg no
 </filter>
