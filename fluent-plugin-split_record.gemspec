@@ -14,5 +14,5 @@ Gem::Specification.new do |spec|
   spec.test_files     = `git ls-files -- {test,spec,features}/*`.split("\n")
   spec.executables    = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   spec.require_paths = ["lib"]
-  spec.add_dependency "fluentd",">= 0.12.39","< 0.16"
+  spec.add_dependency "fluentd","~> 1.14.2"
 end
